@@ -11,3 +11,20 @@ const myBooks = ["The Catcher in the Rye",
     "The Da Vinci Code",
     "The Hunger Games"]
 
+
+console.log("Konsol blev ryddet")
+console.group("konsol opgave")
+console.log("jeg er en almindelig konsol log")
+console.log('jeg er en konsol info: " " ')
+console.groupEnd()
+
+
+console.warn("jeg er en advaersel!")
+console.error("jeg er en fejl!!!")
+
+
+console.table(myBooks);
+
+console.time("default");
+console.timeEnd("default");
+
