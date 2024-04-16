@@ -15,7 +15,7 @@ const myBooks = ["The Catcher in the Rye",
 console.log("Konsol blev ryddet")
 console.group("konsol opgave")
 console.log("jeg er en almindelig konsol log")
-console.log('jeg er en konsol info: " " ')
+console.log('jeg er en konsol info:' + myInfo)
 console.groupEnd()
 
 
@@ -25,6 +25,6 @@ console.error("jeg er en fejl!!!")
 
 console.table(myBooks);
 
-console.time("default");
-console.timeEnd("default");
+console.time()
+console.timeEnd()
 
